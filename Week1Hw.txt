@@ -1,0 +1,10 @@
+Neven Marinkovic
+1/16/2025
+Creative Coding 1 - Github Assignment
+
+Both the CLI (command line interface) and GUI (graphical user interface) are methods used to interact with the files stored on our computers. Computers storage is organized using files and folders, much like you would find at
+someone's work desk. Folders can have multiple folders within them, and files go inside folders. The difference between the CLI and GUI is how the user interacts with these files and folders. Using the GUI (on Windows) means utilizing
+the File Explorer application that gives a visual or graphical representation of our folders and files. We can go to Documents and then view are different folders and files stored in our Documents section but also have the ability
+to click into the different folders and see what files are stored there. We can do the same operations using the CLI as well. On Windows, I open up Powershell and am able to search through my computer's folders and files using
+the cd (change directory) and ls (list) commands. Of course, this description is not comprehensive as you can do many more operations on folders and files than just view them. The GUI does a good job of giving a visual representation
+of our folders and files while the CLI allows us to navigate through our storage faster, utilizing the keyboard commands as opposed to the mouse and click. 
