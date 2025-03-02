@@ -1,0 +1,32 @@
+<html>
+    <style>
+        body {
+            background-color: #E4D9FF;
+        }
+    </style>
+    <head>
+        <title>Survey</title>
+    </head>
+    <body>
+        <h1>
+            Take our survey!<br>
+        </h1>
+        <h3><a href="frontPage.html">Home Page</a></h3>
+        <form action="thankYou.html" type="POST">
+            First Name: <input type="text" name="firstName"><br>
+            Last Name: <input type="text" name="lastName"><br>
+            <br>Favorite Color:<br>
+            <input type="radio" name="color" value="red">Red<br>
+            <input type="radio" name="color" value="blue">Blue<br>
+            <input type="radio" name="color" value="green">Green<br>
+            <input type="radio" name="color" value="yellow">Yellow<br>
+            <br>What are your favorite subjects?<br>
+            <input type="checkbox" name="subject" value="math">Math<br>
+            <input type="checkbox" name="subject" value="science">Natural Science<br>
+            <input type="checkbox" name="subject" value="english">Computer Science<br>
+            <input type="checkbox" name="subject" value="history">History<br>
+            <input type="checkbox" name="subject" value="lit">Literature<br>
+            <button id="submitBtn" type="submit">Submit</button>
+        </form>
+    </body>
+</html>
