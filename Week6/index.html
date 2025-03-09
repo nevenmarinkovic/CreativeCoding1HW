@@ -1,29 +1,32 @@
 <html>
-    <style>
-        body {
-            background-color: lightblue;
-        }
-    </style>
     <head>
         <title>Home Page</title>
+        <link rel="stylesheet" type="text/css" href="external.css">
     </head>
 
     <body>
-        <h1>
+        <h1 id="header">
             Welcome to my website!<br>
         </h1>
-        <h3><a href="survey.html">Take Survey</a></h3>
-        <img src = "https://montana-media-arts.github.io/120_CreativeCoding1-Fall2021-Samples/Homework%206/images/alice.jpeg" width = "300" height = "400"/>
-        <p1>
-            <br>On this website, you will find the following things:
-        </p1>
-        <ol> 
-            <li>Three different pages</li>
-            <li>Navigational functionality between the three pages</li>
-            <li>An ordered list</li>
-            <li>A survey</li>
-            <li>An image</li>
-        </ol>
+        <div class="container">
+            
+            <img src = "https://montana-media-arts.github.io/120_CreativeCoding1-Fall2021-Samples/Homework%206/images/alice.jpeg" width = "300" height = "400"/>
+        </div>
+        <div class="sec_container">
+         
+            <p1 style="font-weight: bold;">
+                <br>On this website, you will find the following things:
+            </p1>
+            <ol> 
+                <li>Three different pages</li>
+                <li>Navigational functionality between the three pages</li>
+                <li>An ordered list</li>
+                <li>A survey</li>
+                <li>An image</li>
+            </ol>
+        </div>
+        <h3 class="container_three"><a href="survey.html" style="text-decoration:none" target="_blank">Take Survey</a></h3>
+        <h3 class="container_three"><a href="nicelyStyled.html" style="text-decoration:none" target="_blank">Nicely Styled Page</a></h3>
     </body>
 
 </html>

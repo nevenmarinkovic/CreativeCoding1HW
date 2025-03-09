@@ -1,31 +1,41 @@
 <html>
     <style>
-        body {
-            background-color: #E4D9FF;
+        body
+        {
+            background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
         }
+        .answer {
+            margin: 10px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
     </style>
     <head>
         <title>Survey</title>
+        <link rel="stylesheet" type="text/css" href="external.css">
     </head>
     <body>
-        <h1>
+        <h1 id="header">
             Take our survey!<br>
         </h1>
-        <h3><a href="index.html">Home Page</a></h3>
+        <h3><a href="index.html" style="text-decoration:none" target="_blank">Home Page</a></h3>
         <form action="thankYou.html" type="POST">
-            First Name: <input type="text" name="firstName"><br>
-            Last Name: <input type="text" name="lastName"><br>
+            First Name: <input type="text" class = "answer" id = "content" name="firstName"><br>
+            Last Name: <input type="text" class = "answer" id = "content" name="lastName"><br>
             <br>Favorite Color:<br>
-            <input type="radio" name="color" value="red">Red<br>
-            <input type="radio" name="color" value="blue">Blue<br>
-            <input type="radio" name="color" value="green">Green<br>
-            <input type="radio" name="color" value="yellow">Yellow<br>
+            <input type="radio" name="color" class = "answer" id = "content" value="red">Red<br>
+            <input type="radio" name="color" class = "answer" id = "content" value="blue">Blue<br>
+            <input type="radio" name="color" class = "answer" id = "content" value="green">Green<br>
+            <input type="radio" name="color" class = "answer" id = "content" value="yellow">Yellow<br>
             <br>What are your favorite subjects?<br>
-            <input type="checkbox" name="subject" value="math">Math<br>
-            <input type="checkbox" name="subject" value="science">Natural Science<br>
-            <input type="checkbox" name="subject" value="english">Computer Science<br>
-            <input type="checkbox" name="subject" value="history">History<br>
-            <input type="checkbox" name="subject" value="lit">Literature<br>
+            <input type="checkbox" name="subject" class = "answer" id = "content" value="math">Math<br>
+            <input type="checkbox" name="subject" class = "answer" id = "content" value="science">Natural Science<br>
+            <input type="checkbox" name="subject" class = "answer" id = "content" value="english">Computer Science<br>
+            <input type="checkbox" name="subject" class = "answer" id = "content" value="history">History<br>
+            <input type="checkbox" name="subject" class = "answer" id = "content" value="lit">Literature<br>
             <button id="submitBtn" type="submit">Submit</button>
         </form>
     </body>
