@@ -7,40 +7,35 @@ function draw()
 {
     background(191,215,234);
     textSize(22)
-    text("Myself in shapes!", 10,80);
+    text("Neven in shapes!", 10,80);
 
-    // head
+
+    //Head, eyes, nose, mouth
     fill(245, 228, 187);
     circle(350,100,175);
-   
-    // eyes
+    line(305,60,315,60);
+    line(380,60,390,60);
     strokeWeight(10);
     fill(0);
-    point(300,75);
+    point(310,75);
     point(385,75);
-
     triangle(340,100,340,90,350,100);
-    
-    // mouth
     ellipse(345, 135, 70, 15)
 
 
-    // body
+    //Body, arms, legs
     fill(8, 126, 139);
     rect(300,185,100,200);
-    
-    // right arm
     fill(10, 24, 120);
     rect(400,195,50,10);
-    // left arm
     rect(250,195,50,10);
-    // left leg
     rect(300,385,10,60);
-    // right leg
     rect(390,385,10,60);
+    point(350, 225);
+    point(350, 240);
     
     fill(0);
-    textSize(22);
+    textSize(30);
     text("Neven Marinkovic",270,500 );
 
 
