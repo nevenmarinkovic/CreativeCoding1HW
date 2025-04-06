@@ -110,9 +110,9 @@ function draw()
         buttonYDirection *= -1; // Reset the position when it goes off screen
     }
     
-    //fill(0);
-    //textSize(30);
-    //text("Neven Marinkovic",270,500 );
+    fill(0);
+    textSize(30);
+    text("Neven Marinkovic",270,500 );
 
 
 }
