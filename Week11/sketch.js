@@ -37,7 +37,7 @@ function draw()
     rect(780, 350, 10, 100);
 
     //If the green circle moves through the gate, write a text message on the screen
-    if (x >= 790 && y >= 330) 
+    if (x >= 790 && (y >= 330 && y <= 370)) 
     {
         fill(255, 255, 0);
         textSize(32);
