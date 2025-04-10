@@ -29,6 +29,20 @@ function draw()
     background(0);
     fill(24, 200, 29);
     circle(x, y, diameter);
+    console.log('circleX: ' + x + ' circleY: ' + y);
+
+    //create a small exit gate with two small rectangles on the right side of the screen
+    fill(255, 0, 0);
+    rect(780, 200, 10, 100);
+    rect(780, 350, 10, 100);
+
+    //If the green circle moves through the gate, write a text message on the screen
+    if (x >= 790 && y >= 330) 
+    {
+        fill(255, 255, 0);
+        textSize(32);
+        text("Congrats, you made it!", 300, 100);
+    }
 
     //Create obstacles of different sizes and colors
     fill(255, 0, 0);
